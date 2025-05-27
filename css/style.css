@@ -642,6 +642,27 @@ pricing section
 #pricing .plan .btn:hover {
   background-color: #3B3B3B;
 }
+.plan-one {
+  border: 2px solid #FFD700;
+  color: #FFD700;
+}
+.plan-two {
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+.plan-three {
+  border: 2px solid #1761B2;
+  color: #1761B2;
+}
+.plan-one ul li {
+  color: #AAB0B6;
+}
+.plan-two ul li {
+  color: #AAB0B6;
+}
+.plan-three ul li {
+  color: #AAB0B6;
+}
 
 /* ==========================================================================
 contact section
