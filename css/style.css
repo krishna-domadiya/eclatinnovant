@@ -469,7 +469,6 @@ about section
     width: 90%;
     padding: 20px 15px;
     font-size: 0.95rem;
-    border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     flex: 0 !important;
   }
@@ -573,6 +572,11 @@ portfolio section
   width: 100%;
   display: block;
 }
+@media (max-width: 767px) {
+  .filter-wrapper {
+    padding-left: 0px;
+  }
+}
 
 /* ==========================================================================
 pricing section
@@ -662,6 +666,23 @@ pricing section
 }
 .plan-three ul li {
   color: #AAB0B6;
+}
+
+@media (max-width: 767px) {
+  #pricing .plan {
+    padding-top: 0px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+  }
+  #pricing h2 {
+    font-size: 30px;
+  }
+
+  /* Stack plans vertically */
+  .col-sm-6 {
+    width: 100%;
+    display: block;
+  }
 }
 
 /* ==========================================================================
