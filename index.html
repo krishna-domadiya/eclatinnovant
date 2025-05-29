@@ -472,5 +472,31 @@
       });
   });
 </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const filterLinks = document.querySelectorAll(".filter-wrapper a");
+    const cards = document.querySelectorAll(".portfolio-card");
+
+    filterLinks.forEach(link => {
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        // Toggle 'selected' class
+        filterLinks.forEach(l => l.classList.remove("selected"));
+        this.classList.add("selected");
+
+        const filter = this.getAttribute("data-filter");
+
+        cards.forEach(card => {
+          if (filter === "*") {
+            card.style.display = "block";
+          } else {
+            card.style.display = card.classList.contains(filter.slice(1)) ? "block" : "none";
+          }
+        });
+      });
+    });
+  });
+</script>
 </body>
 </html>
