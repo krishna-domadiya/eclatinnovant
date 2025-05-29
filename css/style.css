@@ -1064,3 +1064,7 @@ media quires for mobile
   display: inline-block;
   padding: 4px 8px;
 }
+
+.hidden {
+  display: none !important;
+}
