@@ -249,15 +249,19 @@ navigation section
   }
   .custom-navbar.top-nav-collapse {
     padding: 8px;
-    background: rgba(75, 75, 75, 0.5);
-    backdrop-filter: blur(12px);
+    background: #1B222A;
+    /* background: rgba(75, 75, 75, 0.5);
+    backdrop-filter: blur(12px); */
   }
 }
 @media(max-width:768px){
-  .custom-navbar.top-nav-collapse {
+  .navbar .container {
+    background: #1B222A;
+  }
+  /* .custom-navbar.top-nav-collapse {
     background: rgba(75, 75, 75, 0.5);
     backdrop-filter: blur(12px);
-  }
+  } */
 }
 
 /* ==========================================================================
