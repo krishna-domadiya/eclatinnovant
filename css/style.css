@@ -942,6 +942,9 @@ media quires for mobile
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .project-link:hover {
@@ -950,6 +953,20 @@ media quires for mobile
   color: white;
 }
 
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-card-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-desc {
+  flex-grow: 1;
+}
 
 .pricing-title {
   font-size: 2.5rem;
